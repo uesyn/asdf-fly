@@ -1,7 +1,6 @@
-# asdf-concourse
-[![Build Status](https://travis-ci.org/mattysweeps/asdf-concourse.svg)](https://travis-ci.org/mattysweeps/asdf-concourse)
+# asdf-fly
 
-[concourse](https://github.com/concourse/concourse) and fly plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+fly command(CLI for concourse) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
 ## Install
 
@@ -9,9 +8,7 @@ After installing [asdf](https://github.com/asdf-vm/asdf),
 you can add this plugin like this:
 
 ```bash
-asdf plugin-add https://github.com/mattysweeps/asdf-concourse
-asdf install concourse 5.0.1
-concourse
-fly
+asdf plugin-add https://github.com/uesyn/asdf-fly
+asdf install fly 5.0.1
 `````
 
